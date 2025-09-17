@@ -7,7 +7,7 @@ function Greeting({ name }) {
 function App() {
   return (
     <div>
-      <Greeting name="Anderson Joseph" />
+      <Greeting name="Anderson Joseph. Testing a change" />
     </div>
   );
 }
