@@ -1,0 +1,34 @@
+.user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 12rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+h1{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
